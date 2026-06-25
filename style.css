@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+}
+.container{
+    width: 100vmin;
+    text-align: center;
+    margin: 2rem;
+    padding: 3rem;
+
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px);          
+    -webkit-backdrop-filter: blur(15px);
+
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+
+
+.weather-input{
+    padding: 2rem;
+
+}
+.searchbar{ 
+    text-align: center;
+    display: flex;
+    width: 100%;
+    gap: .5rem;
+}
+
+.searchbar input{
+    width: 93%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    padding: .25rem;
+    font-size: 1.5vmax;
+}
+
+.searchbar button{
+    width: 8%;
+    background-color: rgb(250, 197, 106);
+    border-radius: 50%;
+}
+
+.weather-icon{
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.weather-icon img{
+    height: 100%;
+    width: auto;
+}
+
+.temp{
+    font-size: 3.5vmax;
+    font-weight: 600;
+}
+
+.city{
+    font-size: 4vmax;
+    font-weight: 500;
+    padding: .5rem;
+}
+
+.description{
+    font-size: 2vmax;
+}
+
+.heading{
+    font-size: 2.5vmax;
+    padding: 2rem;
+}
+
+.forecast{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.forecast-info{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 18px;
+    box-shadow: 
+        0 8px 25px rgba(0, 0, 0, 0.2),
+        inset 0 0 10px rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+
+}
+
+.forecast-info:hover{
+    scale: 1.02;
+    /* animation: ease-in 2s; */
+}
+.title{
+    font-size: 1.5vmax;
+}
+
+.value{
+    font-size: 1.75vmax;
+    color: White;
+    font-weight: 600;
+}

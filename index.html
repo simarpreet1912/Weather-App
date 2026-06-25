@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="weather-input">
+                <div class="searchbar">
+                    <input type="text" class="search" placeholder="Enter City">
+                    <button class="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="weather-icon">
+                    <img src="" alt="" class = "weather-icon-img">
+                </div>
+
+                <div class="temp"> --</div>
+                <div class="city"> --</div>
+                <div class="description">-- </div>
+
+            </div>
+<hr>
+
+            <div class="weather-output">
+                <h1 class="heading">Today's Forecast</h1>
+                <div class="forecast">
+                    <div class="forecast-info">
+                        <h3 class="title">Feels Like</h3>
+                        <img src="feels-like.png" alt="">
+                        <p id="feels-like" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Humidity</h3>
+                        <img src="humidity (1).png" alt="">
+                        <p id="humidity" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Wind Speed</h3>
+                        <img src="windspeed.png" alt="">
+                        <p id="windspeed" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Sunrise</h3>
+                        <img src="sunrise.png" alt="">
+                        <p id="sunrise" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Sunset</h3>
+                        <img src="sunset.png" alt="">
+                        <p id="sunset" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Gust</h3>
+                        <img src="gust.png" alt="">
+                        <p id="gust" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Air Quality</h3>
+                        <img src="aqi.png" alt="">
+                        <p id="aqi" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Visibility</h3>
+                        <img src="visibility.png" alt="">
+                        <p id="visibility" class="value">--</p>
+                    </div>
+
+                    <div class="forecast-info">
+                        <h3 class="title">Air Pressure</h3>
+                        <img src="pressure.png" alt="">
+                        <p id="pressure" class="value">--</p>
+                    </div>
+                </div>
+
+
+            </div>
+         </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
